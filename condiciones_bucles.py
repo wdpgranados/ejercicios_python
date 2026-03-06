@@ -1,4 +1,4 @@
-
+"""
 # las condiciones sirven para tomar decisiones en en código
 edad = 18
 if edad >=18:
@@ -85,4 +85,25 @@ for fruta in lista:
 
 for i in range(1,6):
     print(i)
+    """
         
+fruta = ["manzana", "banana", "naranja","pera"]
+for frutas in fruta:
+    print(f"la fruta que voy a comer es {frutas}")
+    
+for i in range(1,6):
+    print(i)          
+
+contador = 5
+
+while contador > 0:
+    print(f"va despegar en {contador} segundos")   
+    contador -= 1
+print("despegue!")                     
+
+password = " "
+
+while password != "willy":
+    password = input("ingrese la contraseña para ingresar al sistema: ")
+print("contraseña correcta, bienvenido al sistema")    
+    
